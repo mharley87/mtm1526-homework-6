@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.status {	font-weight: bold;
+
+	font-size: 1.25em;}
+	
+	.unavailable {	color: #f33;}
+	
+	.available {	color: #393;}
+	
+	.pass-reqs {	list-style-type: none;}
+	
+	.pass-reqs li:before {	
+	content: "✖";
+	font-weight: bold;	
+	color: #f33;	
+	font-size: 1.25em;
+	
+	}
+	
+	.pass-reqs li.met:before 
+	{	content: "✔";	
+	color: #393;}
+	
